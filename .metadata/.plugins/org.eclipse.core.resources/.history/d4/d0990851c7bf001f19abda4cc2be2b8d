@@ -1,0 +1,5 @@
+package variableShadowing;
+
+public class VariableShadow {
+
+}

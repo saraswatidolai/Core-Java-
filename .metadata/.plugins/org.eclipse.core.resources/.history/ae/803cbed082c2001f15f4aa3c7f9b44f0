@@ -1,0 +1,25 @@
+package com.number.type;
+
+public class StrongNumber {
+
+	public static void main(String[] args) {
+		int num = 145, sum=0;
+		int temp = num;
+		while(num!=0) {  //145
+			int r = num%10;  //5
+			int fact=1, s=0;
+			for(int i=1; i<=r; i++) {
+				fact*=i;
+				s += fact;
+			}
+			sum += s;
+			num/=10;
+		}
+		if(temp==sum) {
+			System.out.println("Strong number");
+		}
+		else {
+			System.out.println("Not a Strong number");
+		}
+	}
+}

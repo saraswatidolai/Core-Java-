@@ -1,0 +1,13 @@
+package com.r.lambda_expression;
+
+interface Calculator{
+	double getSquareAndCube(int num);
+}
+public class LambdaDemo5 {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

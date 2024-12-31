@@ -1,0 +1,12 @@
+package com.number.type;
+
+public class Multiplication {
+
+	public static void main(String[] args) {
+		int num=5, multi=1;
+		for(int i = 1; i<=num; i++) {
+			multi *= i;
+			System.out.println(num+ "*" +multi+ "="multi);
+		}
+	}
+}

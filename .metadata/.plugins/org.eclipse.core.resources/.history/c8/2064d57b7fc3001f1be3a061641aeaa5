@@ -1,0 +1,13 @@
+package com.r.functional_interface_demo;
+
+import java.util.function.*;
+public class PredicateDemo2 {
+
+	public static void main(String[] args) {
+		
+		//verify my name starts with 'A' or not?
+		Predicate<String> p2 = name->name.startsWith("A");
+
+	}
+
+}

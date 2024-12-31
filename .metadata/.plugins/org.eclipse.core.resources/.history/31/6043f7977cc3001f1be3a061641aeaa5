@@ -1,0 +1,21 @@
+package com.r.lambda_expression;
+
+class Accept<T>{
+	private T x;
+	
+	public Accept(T x) {
+		super();
+		this.x = x;
+	}
+	public T getX() {
+		return x;
+	}
+}
+public class TypeParameterDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
